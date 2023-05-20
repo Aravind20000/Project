@@ -525,8 +525,7 @@ function printBill(){
     }
 
 
-    let win = window.open()
-    win.document.write(`
+document.write(`
     <html>
     <head>
     <title>${c_name.value+" "+dateTime}</title>
