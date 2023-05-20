@@ -525,7 +525,7 @@ function printBill(){
     }
 
 
-    let win = window.open("", "", "height=650, width=960")
+    let win = window.open()
     win.document.write(`
     <html>
     <head>
