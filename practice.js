@@ -655,7 +655,6 @@ function printBill(){
   
     // win.document.write(`<body> <script type="text/javascript">addEventListener("onload", () => { print(); close(); })</script>
     // <h1 style = "color: yellow">Bill Summary:</h1> <br>`)  
-    win.print()
     win.focus()          
     win.document.close()
 }
